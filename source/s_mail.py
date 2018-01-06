@@ -1,5 +1,3 @@
-#!/Users/ainfanzon/anaconda3/bin/python3.5
-
 #  Import packages
 import re
 import csv
