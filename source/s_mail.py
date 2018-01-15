@@ -28,7 +28,6 @@ from email.mime.application import MIMEApplication
 # FUNCTION createMsg(row,o)
 #######
 def createMsg(row,o):
-    # no hard conding of source file names
     html = open(o.text, 'r').read()
     ae_name_lastname = row['Opportunity Owner'].split()
     if pd.isnull(row['SE Opportunity Owner']):
