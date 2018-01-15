@@ -45,14 +45,14 @@ def createMsg(row,o):
 #######
 def sendMail(html,row, o):
     msgRoot = MIMEMultipart('related')
-    msgRoot['Subject'] = 'Oracle at ' + row['Account Name']
+    msgRoot['Subject'] = 'Service at ' + row['Account Name']
     msgRoot['From'] = o.usr
     recipients = []
     if pd.notnull(row['Opportunity SE email']):
         recipients.append(row['Opportunity SE email'])
     recipients.append(row['Opportunity Owner Email'])
     msgRoot['To'] = ", ".join(recipients)
-    msgRoot['Bcc'] = "ainfanzon@purestorage.com"
+    msgRoot['Bcc'] = "uid@email.com"
 
 # Create message container.
 
