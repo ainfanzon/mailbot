@@ -77,8 +77,6 @@ def sendMail(html,row, o):
     s.sendmail(o.usr, recipients, msgRoot.as_string())
     s.quit()
 
-#<img src="cid:image1">
-
 #######
 # FUNCTION readFile()
 #######
