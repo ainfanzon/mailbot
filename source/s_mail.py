@@ -108,7 +108,6 @@ def main():
     (options, args) = parser.parse_args()
 
     # just pass all the options to read file 
-    #readFile(options.csvfile,options)
     readFile(options)
 
 #######
