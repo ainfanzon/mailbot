@@ -1,1 +1,3 @@
+Create a file with your prefered editor and type the message you would like to send. Create a file with 
+
 python3.5 s_mail.py -u uid@gmail.com -p <password> -c opptys.csv -i banner.png -s -t source.htm
